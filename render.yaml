@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: egg-dashboard
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    plan: free
